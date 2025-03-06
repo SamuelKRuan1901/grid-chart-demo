@@ -1,0 +1,85 @@
+.container {
+  background-color: #27667b;
+  min-width: 700px;
+}
+
+.headerRow {
+  background-color: #224f62;
+  color: white;
+  font-size: 1rem;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.tableBodyContainer {
+  width: 100%;
+  overflow-y: auto;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.rowContainer:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+  color: #224f62;
+  transition: background-color 0.3s ease-in;
+}
+
+.elementContainer {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerRow {
+  height: 60px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btnStyle {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #143d60;
+}
+
+.btnStyle:hover {
+  background-color: #103350;
+}
+
+.selectStyle {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
